@@ -1,0 +1,128 @@
+.heroSection {
+    /* background-color: #1f3b4d;  */
+  }
+  
+  .heroContainer {
+    /* background-color: #25475a;  */
+  }
+  
+  .heroBody {
+    /* background-color: #2c556b; */
+  }
+  
+  .heroBlock {
+    /* background-color: #336477;  */
+    height: 64rem;
+  }
+  
+  .heroBox {
+    /* background-color: #3a7283; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    margin-top: 10rem;
+  }
+  
+  .heroBox h2 {
+    /* background-color: #4b8594;  */
+    margin-bottom: 1rem;
+  }
+  
+  .heroBox span {
+    /* background-color: #5e98a4; */
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-size: 9rem;
+    font-weight: 600;
+    line-height: 0.75;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 1rem;
+  }
+  
+  .heroBox p {
+    /* background-color: #709dab;  */
+    margin-bottom: 1rem;
+  }
+  .heroBox p span{
+    display: inline;
+    font-family: var(--ffSecondary);
+    color: var(--primaryColor);
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 1;
+    /* letter-spacing: 0.5rem; */
+  }
+  
+  .heroBox h3 span{
+    /* background-color: #89b6c2;  */
+    display: inline;
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-left: 1rem;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+  }
+  
+  .heroBox figure {
+    /* background-color: #a3cbd6; */
+    margin-bottom: 3rem;
+  }
+  
+  .heroBox img {
+    /* background-color: #b7dce5;  */
+    width: 40%;
+    aspect-ratio: 3 / 1;
+  }
+  
+  .heroBox .buttonBox {
+    /* background-color: #689d8f;  */
+    gap: 1.5rem;
+  }
+  
+  .heroBox .buttonBox button {
+    /* background-color: #4c8374;  */
+  }
+  
+  .signup {
+    /* background-color: #2b4c58;  */
+  }
+  
+  .signupContainer {
+    /* background-color: #345a68; */
+  }
+  
+  .signupBody {
+    /* background-color: #3f6b7a; */
+  }
+  
+  .signupBlock {
+    /* background-color: #497d8b; */
+    height: 12rem;
+    margin-bottom: 3rem;
+  }
+  
+  .signupBox {
+    /* background-color: #5c94a1; */
+    gap: 2.5rem;
+  }
+  
+  .signupBox h2 {
+    /* background-color: #78abb7; */
+  }
+  
+  .signupBox .buttonBox {
+    /* background-color: #60919f; */
+  }
+  
+  .signupBox .buttonBox button {
+    /* background-color: #517e8a; */
+  }
+  
+
+  

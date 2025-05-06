@@ -1,0 +1,73 @@
+.catchus {
+    /* background-color: #314f52; */
+  }
+  
+  .catchusContainer {
+    /* background-color: #3b5d60; */
+  }
+  
+  .catchusBody {
+    /* background-color: #466d70; */
+    gap: 5rem;
+  }
+  
+  .catchusImgBlock {
+    /* background-color: #517c7f; */
+  }
+  
+  .catchusImgBox {
+    /* background-color: #628f91; */
+    width: 100%;
+    height: auto;
+    border: var(--primaryColor) solid 0.25rem;
+  }
+  
+  .catchusImgBox figure {
+    /* background-color: #75a3a6; */
+  }
+  
+  .catchusImgBox img {
+    /* background-color: #8bb7b9; */
+  }
+  
+  .catchusBlock {
+    /* background-color: #5a8e87; */
+  }
+  
+  .catchusBox {
+    /* background-color: #6fa39d; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+  }
+  
+  .catchusBox h2 {
+    /* background-color: #82b5ae; */
+  }
+  
+  .catchusBox span {
+    /* background-color: #95c7be; */
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-size: 9rem;
+    font-weight: 600;
+    line-height: 0.75;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 1rem;
+  }
+  
+  .catchusBox p {
+    /* background-color: #a8d9cd; */
+    margin-bottom: 2rem;
+  }
+  
+  .catchusBox .buttonBox {
+    /* background-color: #75aaa0; */
+    gap: 1.5rem;
+  }
+  
+  .catchusBox .buttonBox button {
+    /* background-color: #5b8e86; */
+  }

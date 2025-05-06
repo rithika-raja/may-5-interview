@@ -1,0 +1,170 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+        padding: 0rem 3rem;
+    }
+
+    header {
+        background-color: var(--darkColor);
+        background-image: url(./assets/bebignow-superbowl-hero-img_small.jpg.jpeg);
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .heroBlock{
+        margin-top: 7rem;
+        height: 56rem;
+    }
+    .heroBox {
+        /* background-color: #3a7283; */
+        width: 100%;
+    }
+
+    .signupBlock {
+        height: 20rem;
+    }
+
+    .signupBox {
+        /* background-color: #5c94a1; */
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    p {
+        font-family: var(--ffSecondary);
+        color: var(--lightColor);
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2;
+        /* letter-spacing: 0.5rem; */
+        margin-bottom: 1rem;
+    }
+
+    .heroBox p span {
+        font-family: var(--ffSecondary);
+        color: var(--primaryColor);
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2;
+        /* letter-spacing: 0.5rem; */
+        margin-bottom: 1rem;
+    }
+    h2 {
+        font-family: var(--ffPrimary);
+        color: var(--lightColor);
+        font-size: 3.5rem;
+        font-weight:600;
+        line-height: 1.1;
+        text-shadow: 0.25rem 0.25rem 0.5rem var(--darkColor);
+        /* letter-spacing: 0.5rem; */
+        /* margin-bottom: 1rem; */
+    }
+    .heroBox span {
+        /* background-color: #5e98a4; */
+        font-family: var(--ffPrimary);
+        color: var(--primaryColor);
+        font-size: 7rem;
+        font-weight: 600;
+        line-height: 0.75;
+        /* letter-spacing: 0.5rem; */
+        margin-bottom: 1rem;
+      }
+      .signupBox h2 {
+        /* background-color: #78abb7; */
+        font-size: 5rem;
+      }
+      .catchusBox h2 {
+        /* background-color: #82b5ae; */
+        font-size: 3rem;
+      }
+      
+      .catchusBox span {
+        /* background-color: #95c7be; */
+        font-family: var(--ffPrimary);
+        color: var(--primaryColor);
+        font-size: 6.25rem;
+        font-weight: 600;
+        line-height: 0.75;
+        /* letter-spacing: 0.5rem; */
+        margin-bottom: 3rem;
+      }
+      .catchusBox p {
+        /* background-color: #a8d9cd; */
+        margin-bottom: 3.5rem;
+      }
+    h3 {
+        font-family: var(--ffPrimary);
+        color: var(--lightColor);
+        font-size: 4.5rem;
+        font-weight: 500;
+        line-height: 1;
+        /* letter-spacing: 0.5rem; */
+        margin-bottom: 1rem;
+    }
+ 
+    .heroBox h3 span{
+        /* background-color: #89b6c2;  */
+        display: inline;
+        font-family: var(--ffPrimary);
+        color: var(--primaryColor);
+        font-size: 4.5rem;
+        font-weight: 400;
+        line-height: 1;
+      }
+    .heroBox img {
+        /* background-color: #b7dce5;  */
+        width: 50%;
+        aspect-ratio: 3 / 1;
+    }
+
+    button {
+        background-color: var(--primaryColor);
+        font-family: var(--ffPrimary);
+        color: var(--darkColor);
+        border: none;
+        border-radius: 0.75rem;
+        font-weight: 100;
+        font-size: 1.75rem;
+        /* letter-spacing: 0.1rem; */
+        padding: 1rem 2.5rem;
+    }
+
+    button:hover {
+        color: var(--lightColor);
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}
