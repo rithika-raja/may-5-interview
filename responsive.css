@@ -152,7 +152,7 @@
     button:hover {
         color: var(--lightColor);
     }
-    .btn{
+    .responsivebtn{
         /* background-color: antiquewhite; */
         display: flex;
         flex-direction: column;
