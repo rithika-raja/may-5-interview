@@ -21,10 +21,12 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    .heroBlock{
+
+    .heroBlock {
         margin-top: 7rem;
         height: 56rem;
     }
+
     .heroBox {
         /* background-color: #3a7283; */
         width: 100%;
@@ -60,16 +62,18 @@
         /* letter-spacing: 0.5rem; */
         margin-bottom: 1rem;
     }
+
     h2 {
         font-family: var(--ffPrimary);
         color: var(--lightColor);
         font-size: 3.5rem;
-        font-weight:600;
+        font-weight: 600;
         line-height: 1.1;
         text-shadow: 0.25rem 0.25rem 0.5rem var(--darkColor);
         /* letter-spacing: 0.5rem; */
         /* margin-bottom: 1rem; */
     }
+
     .heroBox span {
         /* background-color: #5e98a4; */
         font-family: var(--ffPrimary);
@@ -79,17 +83,19 @@
         line-height: 0.75;
         /* letter-spacing: 0.5rem; */
         margin-bottom: 1rem;
-      }
-      .signupBox h2 {
+    }
+
+    .signupBox h2 {
         /* background-color: #78abb7; */
         font-size: 5rem;
-      }
-      .catchusBox h2 {
+    }
+
+    .catchusBox h2 {
         /* background-color: #82b5ae; */
         font-size: 3rem;
-      }
-      
-      .catchusBox span {
+    }
+
+    .catchusBox span {
         /* background-color: #95c7be; */
         font-family: var(--ffPrimary);
         color: var(--primaryColor);
@@ -98,11 +104,13 @@
         line-height: 0.75;
         /* letter-spacing: 0.5rem; */
         margin-bottom: 3rem;
-      }
-      .catchusBox p {
+    }
+
+    .catchusBox p {
         /* background-color: #a8d9cd; */
         margin-bottom: 3.5rem;
-      }
+    }
+
     h3 {
         font-family: var(--ffPrimary);
         color: var(--lightColor);
@@ -112,8 +120,8 @@
         /* letter-spacing: 0.5rem; */
         margin-bottom: 1rem;
     }
- 
-    .heroBox h3 span{
+
+    .heroBox h3 span {
         /* background-color: #89b6c2;  */
         display: inline;
         font-family: var(--ffPrimary);
@@ -121,7 +129,8 @@
         font-size: 4.5rem;
         font-weight: 400;
         line-height: 1;
-      }
+    }
+
     .heroBox img {
         /* background-color: #b7dce5;  */
         width: 50%;
@@ -142,6 +151,13 @@
 
     button:hover {
         color: var(--lightColor);
+    }
+    .btn{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
     }
 }
 
